@@ -16,17 +16,17 @@
         "build": "rollup -c",
         "start": "rollup -c -w"
     },
-    "peerDependencies": {
-        "styled-components": "^4.4.1",
+    "dependencies": {
         "react": "^16.11.0",
-        "react-dom": "^16.11.0"
+        "react-dom": "^16.11.0",
+        "styled-components": "^4.4.1"
     },
     "devDependencies": {
         "@svgr/rollup": "^2.4.1",
         "@types/jest": "^23.1.5",
-        "@types/react": "^16.3.13",
-        "@types/react-dom": "^16.0.5",
-        "@types/styled-components": "^4.1.22",
+        "@types/react": "^16.9.11",
+        "@types/react-dom": "^16.9.4",
+        "@types/styled-components": "^4.4.0",
         "babel-core": "^6.26.3",
         "babel-runtime": "^6.26.0",
         "rollup": "^0.62.0",

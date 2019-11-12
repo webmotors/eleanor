@@ -9,7 +9,9 @@ import svgr from '@svgr/rollup'
 import pkg from './package.json'
 
 export default {
+  external: ['styled-components'],
   input: 'src/index.ts',
+  globals: { 'styled-components': 'styled' },
   output: [
     {
       file: pkg.main,
@@ -36,6 +38,24 @@ export default {
       rollupCommonJSResolveHack: true,
       clean: true
     }),
-    commonjs()
+    commonjs({
+        exclude: 'src/**',
+        include: 'node_modules/**',
+        namedExports: {
+          'node_modules/react/index.js': [
+            'cloneElement',
+            'createContext',
+            'Component',
+            'createElement',
+            'Fragment'
+          ],
+          'node_modules/react-dom/index.js': ['render', 'hydrate'],
+          'node_modules/react-is/index.js': [
+            'isElement',
+            'isValidElementType',
+            'ForwardRef'
+          ]
+        }
+      })
   ]
 }
