@@ -1,5 +1,5 @@
 {
-    "name": "eleanor",
+    "name": "eleanor-components",
     "version": "0.0.1",
     "description": "Eleanor Design System",
     "author": "Allan Ferreira",
@@ -20,6 +20,10 @@
         "react": "^16.11.0",
         "react-dom": "^16.11.0",
         "styled-components": "^4.4.1"
+    },
+    "peerDependencies": {
+        "react": "^16.11.0",
+        "react-dom": "^16.11.0"
     },
     "devDependencies": {
         "@svgr/rollup": "^2.4.1",
