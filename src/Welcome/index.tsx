@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Name, Welcome } from './style'
 
 interface IProps {
-    name?: string
+    name?: string,
 }
 
 export default ({ name }: IProps) => {

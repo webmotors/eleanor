@@ -1,5 +1,5 @@
 import React from 'react'
-import { Welcome } from 'eleanor02'
+import { Welcome } from 'eleanor'
 
 export default function App() {
 
