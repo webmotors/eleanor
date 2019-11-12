@@ -2,7 +2,7 @@
 
 Eleanor é o nome do design system da Webmotors. Os componentes escritos seguem o guia chamado Modern e não contem qualquer tipo de regra de negócio.
 
-## Instação
+## Instalação
 
 O pacote pode ser iniciado pelos seguintes comandos
 ```sh
