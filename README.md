@@ -1,6 +1,6 @@
 # Eleanor Design System
 
-Eleanor é o nome do design system da Webmotors. Os componentes escritos seguem o guia chamado Modern e não contem qualquer tipo de regra de negócio.
+Eleanor é o nome do design system da Webmotors. Os componentes escritos seguem o guia chamado Modern e não contém qualquer tipo de regra de negócio.
 
 ## Instalação
 
@@ -38,7 +38,7 @@ Um guia de arquitetura e boas práticas para lidar com problemas de consistênci
 *  Estilo de componente deve ser feito via styled-components. Nunca usar CSS, SCSS, SASS ou Less.
 *  Componentes são responsivos.
 *  Todo componente tem uma pasta com seu nome em maiúsculo. (ex.: Button)
-*  Toda pasta de componente tem os seguinte arquivos:
+*  Toda pasta de componente tem os seguintes arquivos:
     *  index.(js/ts) - Componente funcional escrito em React
     *  test.(js/ts)  - Teste escrito em Jest e/ou Enzyme
     *  style.(js/ts) - Estilo visual escrito em styled-components
