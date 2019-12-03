@@ -1,4 +1,4 @@
-# Eleanor Design System
+# Eleanor Design System v0.0.4
 
 Eleanor é o nome do design system da Webmotors. Os componentes escritos seguem o guia chamado Modern e não contém qualquer tipo de regra de negócio.
 
